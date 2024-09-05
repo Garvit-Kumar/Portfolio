@@ -246,7 +246,7 @@ margin-top: 80px;
     }
     .nav-img img {
         height: 200px;
-        margin-top: -10vh;
+        margin-top: -8vh;
         background: transparent;
     
 }
@@ -334,7 +334,7 @@ margin-top: 80px;
 }
 .experience {
     border: 2px solid gray;
-    width: 400px;
+    width: 300px;
     border-radius: 10px;
     height: 150px;
     margin-top: 13%;
@@ -354,7 +354,7 @@ margin-top: 80px;
 }
 .education {
     border: 2px solid gray;
-    width: 400px;
+    width: 300px;
     border-radius: 10px;
     height: 160px;
     margin-top: 40px;
@@ -374,7 +374,7 @@ margin-top: 80px;
 }
 .skills {
     border: 2px solid gray;
-    width: 400px;
+    width: 300px;
     border-radius: 10px;
     height: 460px;
     margin-top: 40px;
