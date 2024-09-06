@@ -237,6 +237,84 @@ margin-top: 80px;
    font-size: 20px;
    
 }
+.show{
+    display: none;
+}
+.overlay-content {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    color: white;
+    background-color:black;
+    border-top: 1px solid black;
+}
+.butt{
+    color: white;
+}
+.b-cv button {
+        margin-left: 16%;
+        color: white;
+        border: 2px solid white;
+        font-size: 17px;
+        margin-top: 30px;
+        height: 40px;
+        width: 120px;
+        border-radius: 10px;
+        font-weight: 500;
+    }
+.b-cv button:hover {
+background-color: white;
+color: black;
+border: 2px solid black;
+font-weight: 600;
+}
+.butt1{
+    height: 50px;
+    width: 50px;
+    background:none;
+    border: none;
+    cursor: pointer;
+}
+.butt1 p{
+    font-size: 35px;
+    font-weight: 500;
+    margin-top:2vh;
+    color: black;
+    background-color: white;
+
+}
+.overlay-content {
+    display: none; 
+    position: fixed;
+    top: 0;
+    right: 1px;
+    width: 35%;
+    height: 100%;
+    background-color:white;
+    color: black;
+    z-index: 1000; 
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.overlay-content a {
+    display: block;
+    color: black;
+    font-size: 20px;
+    margin: 10px 0;
+    background-color: transparent;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.overlay-content a:hover {
+    text-decoration: underline;
+}
+
 /* start here */
 
 @media (max-width:480px) {
@@ -250,6 +328,12 @@ margin-top: 80px;
         margin-left: -30px;
         background: transparent;
     
+}
+.show{
+    display: block;
+}
+.navbar{
+    display: none;
 }
 .navbar ul {
     gap: 50px;
@@ -301,13 +385,48 @@ margin-top: 80px;
     margin-left: 145px;
     margin-top: 5px;
 }
+    
+.b-cv button {
+    margin-left: 34%;
+    color: white;
+    border: 2px solid white;
+    font-size: 17px;
+    margin-top: 30px;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.b-cv button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-weight: 600;
+    }
+.butt {
+        color: white;
+        text-decoration: none;
+        margin-top: 30px;
+        margin-left: 115px;
+        font-size: 35px;
+        border: none;
+    }
+ }
+ .fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: 35px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 .icon {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    margin-left: 70px;
+    margin-left: 138px;
     position: absolute;
     margin-top: 50px;
 }
