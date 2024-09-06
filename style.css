@@ -247,6 +247,7 @@ margin-top: 80px;
     .nav-img img {
         height: 200px;
         margin-top: -8vh;
+        margin-left: -30px;
         background: transparent;
     
 }
@@ -279,9 +280,9 @@ margin-top: 80px;
     
 }
 .bio {
-    margin-left: 60px;
+    margin-left: 10px;
     font-size: 17px;
-    margin-top: 220px;
+    margin-top: 250px;
 }
 .bio h1 {
     color: white;
@@ -306,19 +307,19 @@ margin-top: 80px;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    margin-left: 110px;
+    margin-left: 70px;
     position: absolute;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 .icon .fa{
-    font-size: 25px;
+    font-size: 30px;
 }
 .im img {
   display: none;
 }
 .about {
     display: flex;
-    margin-top: 10%;
+    margin-top: 30%;
 }
 .about-me h1 {
     color: gray;
