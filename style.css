@@ -281,7 +281,8 @@ font-weight: 600;
 .butt1 p{
     font-size: 35px;
     font-weight: 500;
-    margin-top:2vh;
+    margin-top:1vh;
+    margin-left: 70px;
     color: black;
     background-color: white;
 
@@ -315,8 +316,6 @@ font-weight: 600;
     text-decoration: underline;
 }
 
-/* start here */
-
 @media (max-width:480px) {
     header {
         display: flex;
@@ -324,8 +323,8 @@ font-weight: 600;
     }
     .nav-img img {
         height: 200px;
-        margin-top: -8vh;
-        margin-left: -30px;
+        margin-top: -6vh;
+        margin-left: -20px;
         background: transparent;
     
 }
@@ -385,7 +384,6 @@ font-weight: 600;
     margin-left: 145px;
     margin-top: 5px;
 }
-    
 .b-cv button {
     margin-left: 34%;
     color: white;
@@ -411,7 +409,7 @@ font-weight: 600;
         font-size: 35px;
         border: none;
     }
- }
+ 
  .fa {
     display: inline-block;
     font: normal normal normal 14px / 1 FontAwesome;
@@ -428,7 +426,7 @@ font-weight: 600;
     gap: 50px;
     margin-left: 138px;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .icon .fa{
     font-size: 30px;
@@ -511,5 +509,12 @@ font-weight: 600;
     margin-left: 10%;
     font-size: 20px;
     margin-top: 6%;
+}
+footer {
+    text-align: center;
+    padding: 1em;
+    color: white;
+    background-color:black;
+    border-top: 1px solid black;
 }
 }
