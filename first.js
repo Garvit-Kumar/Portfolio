@@ -13,6 +13,7 @@ function goo(){
 }
 
 function Email(){
+    window.open('mailto:garvitchaudhary534@gmail.com')
     
 }
 // ---------------------------------------------------------------------------------------------------------
