@@ -91,7 +91,7 @@
             (GL BAJAJ INSTITUTE OF MANAGAMENT)
             Greater Noida, UP</p>
     </div>
-    <div class="skills">
+    <div class="skills">        
         <h1>Skills <i class="fa fa-cogs" aria-hidden="true"></i></h1>
         <p><i class="fa fa-check" aria-hidden="true"></i>Java Script</p>
         <p><i class="fa fa-check" aria-hidden="true"></i>HTML</p>
@@ -135,31 +135,41 @@
     </footer>
 
     <!-- -------------------------------------------------------------------- -->
-
-     <script>
-    (function(){
-        emailjs.init("2sKhzBfEoqLLrQxOD"); 
-    })();
-
-    function sendEmail(event) {
-        event.preventDefault(); 
-
-        var params = {
-            from_name: document.getElementById('name').value,
-            email_id: document.getElementById('email').value,
-            message: document.getElementById('message').value
-        };
-
-        emailjs.send("service_evtm13q", "template_pry1kg9", params)
-            .then((response) => {
-                document.getElementById('msg').innerText = "Email sent successfully!";
-                document.getElementById('contact-form').reset(); 
-            }, (error) => {
-                document.getElementById('msg').innerText = "Failed to send email. Please try again.";
-                console.error('Error sending email:', error);
-            });
-    }
-</script> -->
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init({
+    publicKey: "Snu29zUfkd70rrPEU",
+  });
+})();
+</script>
+    <script>
+        (function(){
+            emailjs.init("Snu29zUfkd70rrPEU"); 
+        })();
+    
+        function sendEmail(event) {
+            event.preventDefault(); 
+    
+            var params = {
+                from_name: document.getElementById('name').value,
+                email_id: document.getElementById('email').value,
+                message: document.getElementById('message').value
+            };
+    
+            emailjs.send("service_wrlh3ro", "template_bvrcn6g", params)
+                .then((response) => {
+                    document.getElementById('msg').innerText = "Email sent successfully!";
+                    document.getElementById('contact-form').reset(); 
+                }, (error) => {
+                    document.getElementById('msg').innerText = "Failed to send email. Please try again.";
+                    console.error('Error sending email:', error);
+                });
+        }
+    </script>
+    
 </body>
 
 </html>
