@@ -19,25 +19,26 @@ function Email(){
 // ---------------------------------------------------------------------------------------------------------
 
 
-(function(){
-    emailjs.init("2sKhzBfEoqLLrQxOD"); 
-})();
+// (function(){
+//     emailjs.init("2sKhzBfEoqLLrQxOD"); 
+// })();
 
-function sendEmail(event) {
-    event.preventDefault(); 
+// function sendEmail(event) {
+//     event.preventDefault(); 
 
-    var params = {
-        from_name: document.getElementById('name').value,
-        email_id: document.getElementById('email').value,
-        message: document.getElementById('message').value
-    };
+//     var params = {
+//         from_name: document.getElementById('name').value,
+//         email_id: document.getElementById('email').value,
+//         message: document.getElementById('message').value
+//     };
 
-    emailjs.send("service_evtm13q", "template_pry1kg9", params)
-        .then((response) => {
-            document.getElementById('msg').innerText = "Email sent successfully!";
-            document.getElementById('contact-form').reset(); 
-        }, (error) => {
-            document.getElementById('msg').innerText = "Failed to send email. Please try again.";
-            console.error('Error sending email:', error);
-        });
-}
+//     emailjs.send("service_evtm13q", "template_pry1kg9", params)
+//         .then((response) => {
+//             document.getElementById('msg').innerText = "Email sent successfully!";
+//             document.getElementById('contact-form').reset(); 
+//         }, (error) => {
+//             document.getElementById('msg').innerText = "Failed to send email. Please try again.";
+//             console.error('Error sending email:', error);
+//         });
+// }
+
